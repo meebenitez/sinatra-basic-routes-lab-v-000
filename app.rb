@@ -3,7 +3,7 @@ require_relative 'config/environment'
 class App < Sinatra::Base
 
   get '/name' do
-    resp.status = 400
+    resp.status = 200
   end
 
 end
